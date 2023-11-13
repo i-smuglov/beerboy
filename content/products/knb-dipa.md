@@ -1,7 +1,7 @@
 ---
 title: KLB
 type: products
-image: /img/products-jumbotron.jpg
+image: /img/products-jumboton.jpg
 pricing:
   heading: Monthly subscriptions
   description: >-

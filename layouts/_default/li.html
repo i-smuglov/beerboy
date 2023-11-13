@@ -1,6 +1,19 @@
-<a href="{{ .RelPermalink }}" class="no-underline pa3 bg-grey-1 br1 mb2 db raise w-100">
-	<h2 class="f3 b lh-title mb1 primary">{{ .Title }}</h2>
-	<p class="mid-gray lh-title mb2">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-	<p class="mb0">{{ .Description }}</p>
-	<p class="link b dib black mb0">Read more →</p>
-</a>
+<div class="product">
+	<div class="product__column">
+		<div class="product__logo"><img src=""></div>
+	</div>
+
+	<div class="product__column">
+		<div class="product__brand">{{ .Title }}</div>
+		<div class="product__name">product__name</div>
+	</div>
+
+	<div class="product__description">product__description</div>
+	<div class="product__price">
+		<div class="product__price--03">03</div>
+		|
+		<div class="product__price--05">05</div>
+		|
+		<div class="product__price--10">10</div>
+	</div>
+</div>
