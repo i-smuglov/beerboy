@@ -1,11 +1,19 @@
 {{ define "main" }}
 
 <div class="container">
-    <div class="column">
-        {{ range .Pages.ByPublishDate.Reverse }}
-        {{ .Render "li"}}
-        {{ end }}
-    </div>
+        <div class="icons icons--1">
+                <img src="img/favicon-16x16.png" alt="">
+                <img src="img/favicon-16x16.png" alt="">
+                <img src="img/favicon-16x16.png" alt="">
+        </div>
+        <div class="icons icons--2">
+                <img src="img/favicon-16x16.png" alt="">
+                <img src="img/favicon-16x16.png" alt="">
+                <img src="img/favicon-16x16.png" alt="">
+        </div>
+    {{ range .Pages.ByPublishDate.Reverse }}
+    {{ .Render "li"}}
+    {{ end }}
 </div>
 
 {{end}}

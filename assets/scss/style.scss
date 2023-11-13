@@ -7,32 +7,77 @@ body {
 
 .container {
 	font-size: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: white
+
+	color: white;
+	column-count: 2;
 }
 
-.column {
-	width: 50%;
-}
 
 .product {
 	display: flex;
 	flex-direction: row;
+	height: 140px;
+	padding: 10px;
+	gap: 10px;
+	font-size: 22px;
+	justify-content: space-between;
 
-	&__logo {
-		height: 50px;
-		width: 50px;
-		border: 2px solid white;
-		border-radius: 50%;
-		img {
-			object-fit: contain;
+	&__column {
+		&--desc {
+			flex-grow: 1;
+		}
+
+		&--price {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			width: 150px;
+			justify-content: space-between;
 		}
 	}
 
+	&__logo {
+		height: 140px;
+		width: 140px;
+		border: 2px solid white;
+		border-radius: 50%;
+		object-fit: contain;
+	}
+
+	&__brand {
+		font-weight: 600;
+		font-size: 30px;
+	}
+
+	&__name {
+		font-size: 28px;
+	}
+
+	&__description {
+		font-size: 24px;
+	}
+
 	&__price {
-		display: flex;
-		flex-direction: row;
+		padding: 0 10px;
+	}
+
+	position: relative;
+}
+
+.icons {
+	position: absolute;
+
+	width: 150px;
+	display: flex;
+	justify-content: space-between;
+
+	img {
+		padding: 10px;
+	}
+	&--1{
+		right: 50%;
+	}
+	&--2{
+		right: 0%;
 	}
 }
