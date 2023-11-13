@@ -1,6 +1,4 @@
 ---
 title: KLB
-image: /img/products-jumboton.jpg
+image: img/android-chrome-192x192.png
 ---
-
-
