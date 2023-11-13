@@ -19,9 +19,9 @@ collections: # A list of collections the CMS should be able to edit
         name: "Brand"
         widget: "relation"
         collection: "brands"
-        search_fields: [ "brands.*.title" ]
-        display_fields: [ "brands.*.title" ]
-        value_field: "brands.*.id"
+        search_fields: ['title']
+        value_field: "{{slug}}"
+        display_fields: ["{{title}}"]
   - name: "brands"
     label: "Brands"
     folder: "content/brands"
