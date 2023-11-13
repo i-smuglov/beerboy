@@ -1,0 +1,28 @@
+body {
+	width: 100vw;
+	height: 100vw;
+	background: black;
+	overflow: hidden;
+}
+
+.container {
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white
+}
+
+.column {
+	width: 50%;
+}
+
+.product {
+	display: flex;
+	flex-direction: row;
+
+	&__price {
+		display: flex;
+		flex-direction: row;
+	}
+}
