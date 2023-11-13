@@ -21,6 +21,16 @@ body {
 	display: flex;
 	flex-direction: row;
 
+	&__logo {
+		height: 50px;
+		width: 50px;
+		border: 2px solid white;
+		border-radius: 50%;
+		img {
+			object-fit: contain;
+		}
+	}
+
 	&__price {
 		display: flex;
 		flex-direction: row;
