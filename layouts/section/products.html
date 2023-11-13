@@ -1,6 +1,5 @@
 {{ define "main" }}
 
-{{ partial "4-up" .Params.intro }}
 
 
 {{ with .Params.main }}
@@ -13,15 +12,9 @@
 
 {{ end }}
 
-<div class="pb4">
-  {{ range .Params.testimonials }}
-    {{ partial "blockquote" . }}
-  {{ end }}
-</div>
 
 <!-- Full-width image -->
 <img src="{{ .Params.full_image }}" alt="" class="db w-100">
 
-{{ partial "table" .Params.pricing }}
 
 {{ end }}
