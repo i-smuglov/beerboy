@@ -1,13 +1,17 @@
-body {
-	width: 100vw;
-	height: 100vw;
-	background: black;
+body, html {
+	height: 100%;
+	margin: 0;
 	overflow: hidden;
 }
 
-.container {
-	font-size: 20px;
 
+.container {
+	width: 100vw;
+	height: 100vh;
+	padding-top: 20px;
+	background: black;
+	overflow: hidden;
+	font-size: 20px;
 	color: white;
 	column-count: 2;
 }
@@ -16,11 +20,13 @@ body {
 .product {
 	display: flex;
 	flex-direction: row;
-	height: 140px;
+	height: 20%;
+	overflow: hidden;
 	padding: 10px;
-	gap: 10px;
 	font-size: 22px;
 	justify-content: space-between;
+	box-sizing: border-box;
+	padding-right: 60px;
 
 	&__column {
 		&--desc {
@@ -33,15 +39,17 @@ body {
 			align-items: center;
 			width: 150px;
 			justify-content: space-between;
+			position: relative;
 		}
 	}
 
 	&__logo {
-		height: 140px;
-		width: 140px;
+		height: 120px;
+		width: 120px;
 		border: 2px solid white;
 		border-radius: 50%;
 		object-fit: contain;
+		margin-right: 10px;
 	}
 
 	&__brand {
@@ -59,25 +67,41 @@ body {
 
 	&__price {
 		padding: 0 10px;
+		width: 20px;
+
 	}
 
-	position: relative;
-}
 
-.icons {
-	position: absolute;
 
-	width: 150px;
-	display: flex;
-	justify-content: space-between;
-
-	img {
-		padding: 10px;
-	}
-	&--1{
-		right: 50%;
-	}
-	&--2{
-		right: 0%;
+	&:nth-child(1) .product__column--price::after,
+	&:nth-child(6) .product__column--price::after {
+		content: ""; /* Add content to the ::after pseudo-element */
+		display: block;
+		height: 60px;
+		background-image: url('	../img/favicon-16x16.png');
+		background-repeat: repeat-x;
+		background-size: cover;
+		position: absolute;
+		top: -30px;
+		left: 0;
+		width: 140px;
 	}
 }
+
+//.icons {
+//	position: absolute;
+//
+//	width: 150px;
+//	display: flex;
+//	justify-content: space-between;
+//
+//	img {
+//		padding: 10px;
+//	}
+//	&--1{
+//		right: 50%;
+//	}
+//	&--2{
+//		right: 0%;
+//	}
+//}
