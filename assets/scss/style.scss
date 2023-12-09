@@ -45,9 +45,8 @@ body, html {
 	}
 
 	&__logo {
-		height: 120px;
-		width: 120px;
-		border: 2px solid white;
+		height: 110px;
+		width: 110px;
 		border-radius: 50%;
 		object-fit: contain;
 		margin-right: 10px;
@@ -69,9 +68,9 @@ body, html {
 	&__price {
 		padding: 0 10px;
 		width: 20px;
+		text-align: center;
 
 	}
-
 
 
 	&:nth-child(1) .product__column--price::after,
