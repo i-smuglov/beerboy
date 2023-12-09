@@ -13,14 +13,13 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - { label: "Image", name: "image", widget: "image", required: true }
       - { label: "Brand", name: "brand", widget: "string", required: true }
-      - { label: "Title", name: "title", widget: "string", required: true }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Details", name: "details", widget: "string" }
+      - { label: "Title", name: "title", widget: "markdown", required: true }
+      - { label: "Details (OG/ABV/IBU)", name: "details", widget: "string" }
       - { label: "price 0.3", name: "price03", widget: "string" }
       - { label: "price 0.5", name: "price05", widget: "string" }
       - { label: "price 1.0", name: "price10", widget: "string" }
       - { label: "rice Color", name: "price_color", widget: "color", default: "#ffffff", allowInput: true }
-      - { label: "location", name: "location", widget: "string" }
+      - { label: "Location", name: "location", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
   - name: "products_2"
     label: "Products 2"
@@ -29,14 +28,13 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - { label: "Image", name: "image", widget: "image", required: true }
       - { label: "Brand", name: "brand", widget: "string", required: true }
-      - { label: "Title", name: "title", widget: "string", required: true }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Details", name: "details", widget: "string" }
+      - { label: "Title", name: "title", widget: "markdown", required: true }
+      - { label: "Details (OG/ABV/IBU)", name: "details", widget: "string" }
       - { label: "price 0.3", name: "price03", widget: "string" }
       - { label: "price 0.5", name: "price05", widget: "string" }
       - { label: "price 1.0", name: "price10", widget: "string" }
       - { label: "Price Color", name: "price_color", widget: "color", default: "#ffffff", allowInput: true }
-      - { label: "location", name: "location", widget: "string" }
+      - { label: "Location", name: "location", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
   - name: "products_3"
     label: "Products 3"
@@ -45,14 +43,13 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - { label: "Image", name: "image", widget: "image", required: true }
       - { label: "Brand", name: "brand", widget: "string", required: true }
-      - { label: "Title", name: "title", widget: "string", required: true }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Details", name: "details", widget: "string" }
+      - { label: "Title", name: "title", widget: "markdown", required: true }
+      - { label: "Details (OG/ABV/IBU)", name: "details", widget: "string" }
       - { label: "price 0.3", name: "price03", widget: "string" }
       - { label: "price 0.5", name: "price05", widget: "string" }
       - { label: "price 1.0", name: "price10", widget: "string" }
       - { label: "Price Color", name: "price_color", widget: "color", default: "#ffffff", allowInput: true }
-      - { label: "location", name: "location", widget: "string" }
+      - { label: "Location", name: "location", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
   - name: "products_4"
     label: "Products 4"
@@ -61,12 +58,11 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - { label: "Image", name: "image", widget: "image", required: true }
       - { label: "Brand", name: "brand", widget: "string", required: true }
-      - { label: "Title", name: "title", widget: "string", required: true }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Details", name: "details", widget: "string" }
+      - { label: "Title", name: "title", widget: "markdown", required: true }
+      - { label: "Details (OG/ABV/IBU)", name: "details", widget: "string" }
       - { label: "price 0.3", name: "price03", widget: "string" }
       - { label: "price 0.5", name: "price05", widget: "string" }
       - { label: "price 1.0", name: "price10", widget: "string" }
       - { label: "Price Color", name: "price_color", widget: "color", default: "#ffffff", allowInput: true }
-      - { label: "location", name: "location", widget: "string" }
+      - { label: "Location", name: "location", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
