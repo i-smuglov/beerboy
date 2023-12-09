@@ -2,6 +2,7 @@ body, html {
 	height: 100%;
 	margin: 0;
 	overflow: hidden;
+	font: "sans-serif";
 }
 
 
@@ -26,7 +27,7 @@ body, html {
 	font-size: 22px;
 	justify-content: space-between;
 	box-sizing: border-box;
-	padding-right: 60px;
+	padding-right: 40px;
 
 	&__column {
 		&--desc {
@@ -84,7 +85,7 @@ body, html {
 		position: absolute;
 		top: -30px;
 		left: 0;
-		width: 140px;
+		width: 150px;
 	}
 }
 

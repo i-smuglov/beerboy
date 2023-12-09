@@ -7,13 +7,12 @@
     </div>
 
     <div class="product__column product__column--desc">
-        <div class="product__brand">brand:
-
+        <div class="product__brand">
             {{ with .GetPage $brand }}
             {{ .Title }}
             {{ end }}
         </div>
-        <div class="product__name">title: {{ .Title }}</div>
+        <div class="product__name">{{ .Title }}</div>
         <div class="product__description">{{ .Description }}</div>
     </div>
     <div class="product__column product__column--price">
