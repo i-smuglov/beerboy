@@ -1,25 +1,22 @@
 <div class="product">
-    {{ $brand := printf "../brands/%s" .Params.brand }}
     <div class="product__column">
-        {{ with .GetPage $brand }}
         <img class="product__logo" src="{{ .Params.image }}">
-        {{ end }}
+
     </div>
 
     <div class="product__column product__column--desc">
         <div class="product__brand">
-            {{ with .GetPage $brand }}
-            {{ .Title }}
-            {{ end }}
+            {{ .Params.Title }}
         </div>
-        <div class="product__name">{{ .Title }}</div>
-        <div class="product__description">{{ .Description }}</div>
+        <div class="product__name">{{ .Params.Title }}</div>
+        <div class="product__description">{{ .Params.Description }}</div>
+        <div class="product__description">{{ .Params.details }}</div>
     </div>
     <div class="product__column product__column--price">
-        <div class="product__price product__price--03">03</div>
+        <div class="product__price product__price--03">{{ .Params.price03 }}</div>
         |
-        <div class="product__price product__price--05">05</div>
+        <div class="product__price product__price--05">{{ .Params.price05 }}</div>
         |
-        <div class="product__price product__price--10">10</div>
+        <div class="product__price product__price--10">{{ .Params.price10 }}</div>
     </div>
 </div>

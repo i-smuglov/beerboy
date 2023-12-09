@@ -6,26 +6,29 @@ media_folder: "static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "products"
-    label: "Products"
-    folder: "content/products"
+  - name: "products-1"
+    label: "Products 1"
+    folder: "content/products-1"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Intro Blurb", name: "description", widget: "text"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Brand"
-        name: "Brand"
-        widget: "relation"
-        collection: "brands"
-        search_fields: ['title']
-        value_field: "{{slug}}"
-        display_fields: ["{{title}}"]
-  - name: "brands"
-    label: "Brands"
-    folder: "content/brands"
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Details", name: "details", widget: "text"}
+      - {label: "Image", name: "image", widget: "image", required: true }
+      - {label: "price 0.3", name: "price03", widget: "text"}
+      - {label: "price 0.5", name: "price05", widget: "text"}
+      - {label: "price 1.0", name: "price10", widget: "text"}
+      - { label: "Publish Date", name: "date", widget: "datetime"}
+  - name: "products-2"
+    label: "Products 2"
+    folder: "content/products-2"
     create: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Image", name: "image", widget: "image", required: true }
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Details", name: "details", widget: "text"}
+      - {label: "Image", name: "image", widget: "image", required: true }
+      - {label: "price 0.3", name: "price03", widget: "text"}
+      - {label: "price 0.5", name: "price05", widget: "text"}
+      - {label: "price 1.0", name: "price10", widget: "text"}
+      - { label: "Publish Date", name: "date", widget: "datetime"}
