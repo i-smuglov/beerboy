@@ -1,19 +1,22 @@
 {{ define "main" }}
+<div class="wrapper">
+    <div class="spacer"></div>
+    <div class="container">
+        <!--        <div class="icons icons&#45;&#45;1">-->
+        <!--                <img src="img/favicon-16x16.png" alt="">-->
+        <!--                <img src="img/favicon-16x16.png" alt="">-->
+        <!--                <img src="img/favicon-16x16.png" alt="">-->
+        <!--        </div>-->
+        <!--        <div class="icons icons&#45;&#45;2">-->
+        <!--                <img src="img/favicon-16x16.png" alt="">-->
+        <!--                <img src="img/favicon-16x16.png" alt="">-->
+        <!--                <img src="img/favicon-16x16.png" alt="">-->
+        <!--        </div>-->
 
-<div class="container">
-<!--        <div class="icons icons&#45;&#45;1">-->
-<!--                <img src="img/favicon-16x16.png" alt="">-->
-<!--                <img src="img/favicon-16x16.png" alt="">-->
-<!--                <img src="img/favicon-16x16.png" alt="">-->
-<!--        </div>-->
-<!--        <div class="icons icons&#45;&#45;2">-->
-<!--                <img src="img/favicon-16x16.png" alt="">-->
-<!--                <img src="img/favicon-16x16.png" alt="">-->
-<!--                <img src="img/favicon-16x16.png" alt="">-->
-<!--        </div>-->
-    {{ range .Pages.ByPublishDate.Reverse }}
-    {{ .Render "li"}}
-    {{ end }}
+        {{ range .Pages.ByPublishDate.Reverse }}
+        {{ .Render "li"}}
+        {{ end }}
+    </div>
 </div>
 
 {{end}}
