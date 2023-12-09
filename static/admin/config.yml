@@ -19,7 +19,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "price 0.3", name: "price03", widget: "string" }
       - { label: "price 0.5", name: "price05", widget: "string" }
       - { label: "price 1.0", name: "price10", widget: "string" }
-      - { label: 'Price Color', name: 'price_color', widget: 'color', default: "#ffffff", allowInput: true }
+      - { label: "rice Color", name: "price_color", widget: "color", default: "#ffffff", allowInput: true }
       - { label: "location", name: "location", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
   - name: "products_2"
@@ -35,7 +35,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "price 0.3", name: "price03", widget: "string" }
       - { label: "price 0.5", name: "price05", widget: "string" }
       - { label: "price 1.0", name: "price10", widget: "string" }
-      - { label: 'Price Color', name: 'price_color', widget: 'color', default: "#ffffff", allowInput: true }
+      - { label: "Price Color", name: "price_color", widget: "color", default: "#ffffff", allowInput: true }
       - { label: "location", name: "location", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
   - name: "products_3"
@@ -51,7 +51,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "price 0.3", name: "price03", widget: "string" }
       - { label: "price 0.5", name: "price05", widget: "string" }
       - { label: "price 1.0", name: "price10", widget: "string" }
-      - { label: 'Price Color', name: 'price_color', widget: 'color', default: "#ffffff", allowInput: true }
+      - { label: "Price Color", name: "price_color", widget: "color", default: "#ffffff", allowInput: true }
       - { label: "location", name: "location", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
   - name: "products_4"
@@ -67,6 +67,6 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "price 0.3", name: "price03", widget: "string" }
       - { label: "price 0.5", name: "price05", widget: "string" }
       - { label: "price 1.0", name: "price10", widget: "string" }
-      - { label: 'Price Color', name: 'price_color', widget: 'color', default: "#ffffff", allowInput: true }
+      - { label: "Price Color", name: "price_color", widget: "color", default: "#ffffff", allowInput: true }
       - { label: "location", name: "location", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
