@@ -13,7 +13,7 @@
         <div class="product__details">{{ .Params.details }}</div>
         <div class="product__location">{{ .Params.location }}</div>
     </div>
-    <div class="product__column product__column--price">
+    <div class="product__column product__column--price" style="color: {{ .Params.price_color }};">
         <div class="product__price product__price--03">{{ .Params.price03 }}</div>
         |
         <div class="product__price product__price--05">{{ .Params.price05 }}</div>

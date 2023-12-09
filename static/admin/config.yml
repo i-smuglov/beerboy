@@ -11,58 +11,62 @@ collections: # A list of collections the CMS should be able to edit
     folder: "content/products_1"
     create: true
     fields:
-      - {label: "Image", name: "image", widget: "image", required: true }
-      - {label: "Brand", name: "brand", widget: "string", required: true}
-      - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Details", name: "details", widget: "string"}
-      - {label: "price 0.3", name: "price03", widget: "string"}
-      - {label: "price 0.5", name: "price05", widget: "string"}
-      - {label: "price 1.0", name: "price10", widget: "string"}
-      - {label: "location", name: "location", widget: "string"}
-      - { label: "Publish Date", name: "date", widget: "datetime"}
+      - { label: "Image", name: "image", widget: "image", required: true }
+      - { label: "Brand", name: "brand", widget: "string", required: true }
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Details", name: "details", widget: "string" }
+      - { label: "price 0.3", name: "price03", widget: "string" }
+      - { label: "price 0.5", name: "price05", widget: "string" }
+      - { label: "price 1.0", name: "price10", widget: "string" }
+      - { label: 'Price Color', name: 'price_color', widget: 'color', default: "#ffffff", allowInput: true }
+      - { label: "location", name: "location", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
   - name: "products_2"
     label: "Products 2"
     folder: "content/products_2"
     create: true
     fields:
-      - {label: "Image", name: "image", widget: "image", required: true }
-      - {label: "Brand", name: "brand", widget: "string", required: true}
-      - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Details", name: "details", widget: "string"}
-      - {label: "price 0.3", name: "price03", widget: "string"}
-      - {label: "price 0.5", name: "price05", widget: "string"}
-      - {label: "price 1.0", name: "price10", widget: "string"}
-      - {label: "location", name: "location", widget: "string"}
-      - { label: "Publish Date", name: "date", widget: "datetime"}
+      - { label: "Image", name: "image", widget: "image", required: true }
+      - { label: "Brand", name: "brand", widget: "string", required: true }
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Details", name: "details", widget: "string" }
+      - { label: "price 0.3", name: "price03", widget: "string" }
+      - { label: "price 0.5", name: "price05", widget: "string" }
+      - { label: "price 1.0", name: "price10", widget: "string" }
+      - { label: 'Price Color', name: 'price_color', widget: 'color', default: "#ffffff", allowInput: true }
+      - { label: "location", name: "location", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
   - name: "products_3"
     label: "Products 3"
     folder: "content/products_3"
     create: true
     fields:
-      - {label: "Image", name: "image", widget: "image", required: true }
-      - {label: "Brand", name: "brand", widget: "string", required: true}
-      - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Details", name: "details", widget: "string"}
-      - {label: "price 0.3", name: "price03", widget: "string"}
-      - {label: "price 0.5", name: "price05", widget: "string"}
-      - {label: "price 1.0", name: "price10", widget: "string"}
-      - {label: "location", name: "location", widget: "string"}
-      - { label: "Publish Date", name: "date", widget: "datetime"}
+      - { label: "Image", name: "image", widget: "image", required: true }
+      - { label: "Brand", name: "brand", widget: "string", required: true }
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Details", name: "details", widget: "string" }
+      - { label: "price 0.3", name: "price03", widget: "string" }
+      - { label: "price 0.5", name: "price05", widget: "string" }
+      - { label: "price 1.0", name: "price10", widget: "string" }
+      - { label: 'Price Color', name: 'price_color', widget: 'color', default: "#ffffff", allowInput: true }
+      - { label: "location", name: "location", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
   - name: "products_4"
     label: "Products 4"
     folder: "content/products_4"
     create: true
     fields:
-      - {label: "Image", name: "image", widget: "image", required: true }
-      - {label: "Brand", name: "brand", widget: "string", required: true}
-      - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Details", name: "details", widget: "string"}
-      - {label: "price 0.3", name: "price03", widget: "string"}
-      - {label: "price 0.5", name: "price05", widget: "string"}
-      - {label: "price 1.0", name: "price10", widget: "string"}
-      - {label: "location", name: "location", widget: "string"}
-      - { label: "Publish Date", name: "date", widget: "datetime"}
+      - { label: "Image", name: "image", widget: "image", required: true }
+      - { label: "Brand", name: "brand", widget: "string", required: true }
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Details", name: "details", widget: "string" }
+      - { label: "price 0.3", name: "price03", widget: "string" }
+      - { label: "price 0.5", name: "price05", widget: "string" }
+      - { label: "price 1.0", name: "price10", widget: "string" }
+      - { label: 'Price Color', name: 'price_color', widget: 'color', default: "#ffffff", allowInput: true }
+      - { label: "location", name: "location", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
