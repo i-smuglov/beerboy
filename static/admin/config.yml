@@ -6,9 +6,9 @@ media_folder: "static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "products-1"
+  - name: "products_1"
     label: "Products 1"
-    folder: "content/products-1"
+    folder: "content/products_1"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
@@ -19,9 +19,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "price 0.5", name: "price05", widget: "text"}
       - {label: "price 1.0", name: "price10", widget: "text"}
       - { label: "Publish Date", name: "date", widget: "datetime"}
-  - name: "products-2"
+  - name: "products_2"
     label: "Products 2"
-    folder: "content/products-2"
+    folder: "content/products_2"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
