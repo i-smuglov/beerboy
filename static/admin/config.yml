@@ -18,6 +18,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "price 0.3", name: "price03", widget: "string"}
       - {label: "price 0.5", name: "price05", widget: "string"}
       - {label: "price 1.0", name: "price10", widget: "string"}
+      - {label: "location", name: "location", widget: "string"}
       - { label: "Publish Date", name: "date", widget: "datetime"}
   - name: "products_2"
     label: "Products 2"
@@ -31,6 +32,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "price 0.3", name: "price03", widget: "string"}
       - {label: "price 0.5", name: "price05", widget: "string"}
       - {label: "price 1.0", name: "price10", widget: "string"}
+      - {label: "location", name: "location", widget: "string"}
       - { label: "Publish Date", name: "date", widget: "datetime"}
   - name: "products_3"
     label: "Products 3"
@@ -44,6 +46,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "price 0.3", name: "price03", widget: "string"}
       - {label: "price 0.5", name: "price05", widget: "string"}
       - {label: "price 1.0", name: "price10", widget: "string"}
+      - {label: "location", name: "location", widget: "string"}
       - { label: "Publish Date", name: "date", widget: "datetime"}
   - name: "products_4"
     label: "Products 4"
@@ -57,4 +60,5 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "price 0.3", name: "price03", widget: "string"}
       - {label: "price 0.5", name: "price05", widget: "string"}
       - {label: "price 1.0", name: "price10", widget: "string"}
+      - {label: "location", name: "location", widget: "string"}
       - { label: "Publish Date", name: "date", widget: "datetime"}
