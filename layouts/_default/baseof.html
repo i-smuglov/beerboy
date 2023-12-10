@@ -3,21 +3,5 @@
 {{ partial "head" . }}
 <body>
 {{ block "main" . }}{{ end }}
-<script>
-    // Function to reload the page
-    function refreshPage() {
-        location.reload(true); // true parameter forces a reload from the server, not from the cache
-        const date = new Date();
-        const hour = date.getHours();
-        const min = date.getMinutes();
-        console.log('reload: ' + hour + ':' + min)
-    }
-
-    // Set the interval to 1 hour (in milliseconds)
-    const refreshInterval = 60 * 1000; // 1 hour = 60 minutes * 60 seconds * 1000 milliseconds
-
-    // Set a timer to refresh the page after the specified interval
-    setTimeout(refreshPage, refreshInterval);
-</script>
 </body>
 </html>

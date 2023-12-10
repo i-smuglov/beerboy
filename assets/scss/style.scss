@@ -117,12 +117,12 @@ body, html {
 	&:nth-child(6) .product__column--price::after {
 		content: ""; /* Add content to the ::after pseudo-element */
 		display: block;
-		height: 60px;
-		background-image: url('	../img/bottles.png');
+		height: 120px;
+		background-image: url('	../img/botl2.png');
 		background-repeat: repeat-x;
-		background-size: cover;
+		background-size: contain;
 		position: absolute;
-		top: -30px;
+		top: -50px;
 		left: 0;
 		width: 150px;
 	}
