@@ -119,12 +119,13 @@ body, html {
 		display: block;
 		height: 120px;
 		background-image: url('	../img/botl2.png');
-		background-repeat: repeat-x;
+		background-repeat: no-repeat;
 		background-size: contain;
 		position: absolute;
-		top: -50px;
+		top: -40px;
 		left: 0;
-		width: 150px;
+		width: 120px;
+		padding: 0 15px;
 	}
 }
 
