@@ -5,8 +5,8 @@
     </div>
 
     <div class="product__column product__column--desc">
-        <div class="product__brand">{{ .Params.Brand | markdownify}}</div>
-        <div class="product__name">{{ .Params.Title | markdownify }}</div>
+        <div class="product__brand">{{ .Params.Title | markdownify}}</div>
+        <div class="product__name">{{ .Params.Type | markdownify }}</div>
         <div class="product__details">{{ .Params.details }}</div>
         <div class="product__location">{{ .Params.location }}</div>
     </div>
