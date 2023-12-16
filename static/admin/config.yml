@@ -28,7 +28,7 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - { label: "Image", name: "image", widget: "image", required: true }
       - { label: "Title", name: "title", widget: "markdown", required: true }
-      - { label: "Type", name: ""Type"type", widget: "string"}
+      - { label: "Type", name: "type", widget: "string"}
       - { label: "Details (OG/ABV/IBU)", name: "details", widget: "string" }
       - { label: "price 0.3", name: "price03", widget: "string" }
       - { label: "price 0.5", name: "price05", widget: "string" }
