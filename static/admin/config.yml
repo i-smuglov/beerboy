@@ -20,7 +20,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "price 1.0", name: "price10", widget: "string" }
       - { label: "Price Color", name: "price_color", widget: "color", default: "#ffffff", allowInput: true }
       - { label: "Location", name: "location", widget: "string" }
-      - { label: "Order", name: "date", widget: "datetime" }
+      - { label: "Order", name: "weight", widget: "number" }
   - name: "products_2"
     label: "Products 2"
     folder: "content/products_2"
