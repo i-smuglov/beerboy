@@ -13,7 +13,7 @@
         <!--                <img src="img/favicon-16x16.png" alt="">-->
         <!--        </div>-->
 
-        {{ range .Pages.ByPublishDate.Reverse }}
+        {{ range .Pages.ByWeight }}
         {{ .Render "li"}}
         {{ end }}
     </div>
